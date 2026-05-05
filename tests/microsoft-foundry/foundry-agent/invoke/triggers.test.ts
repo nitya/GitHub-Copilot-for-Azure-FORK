@@ -26,7 +26,7 @@ describe("invoke - Trigger Tests", () => {
       "Test my deployed agent in Foundry",
       "Run my Foundry agent with a test prompt",
       "Have a conversation with my Foundry agent",
-      "Chat with my agent in Azure AI Foundry",
+      "Chat with my agent in Microsoft Foundry",
     ];
 
     test.each(shouldTriggerPrompts)(

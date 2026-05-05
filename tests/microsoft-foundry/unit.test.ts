@@ -208,7 +208,7 @@ describe(`${SKILL_NAME} - Unit Tests`, () => {
       expect(rbacContent.length).toBeGreaterThan(100);
     });
 
-    test("contains Azure AI Foundry roles table", () => {
+    test("contains Microsoft Foundry roles table", () => {
       expect(rbacContent).toContain("Azure AI User");
       expect(rbacContent).toContain("Azure AI Project Manager");
       expect(rbacContent).toContain("Azure AI Account Owner");

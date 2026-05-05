@@ -23,7 +23,7 @@
 | Service | Availability | Details |
 |---------|--------------|---------|
 | Static Web Apps | Limited (5 regions) | [Region Details](services/static-web-apps/region-availability.md) |
-| Azure AI Foundry | Very limited (by model) | [Region Details](services/foundry/region-availability.md) |
+| Microsoft Foundry | Very limited (by model) | [Region Details](services/foundry/region-availability.md) |
 | Azure Kubernetes Service (AKS) | Limited in some regions | To get available regions with enough quota, use `mcp_azure_mcp_quota` tool. |
 | Azure Database for PostgreSQL | Limited in some regions | To get available regions with enough quota, use `mcp_azure_mcp_quota` tool. |
 

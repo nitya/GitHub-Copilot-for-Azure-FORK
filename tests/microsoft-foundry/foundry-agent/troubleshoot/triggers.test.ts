@@ -22,7 +22,7 @@ describe("troubleshoot - Trigger Tests", () => {
   describe("Should Trigger", () => {
     const shouldTriggerPrompts: string[] = [
       "Troubleshoot my Foundry agent that is not responding",
-      "Debug my hosted agent errors in Azure AI Foundry",
+      "Debug my hosted agent errors in Microsoft Foundry",
       "Show me the container logs for my Foundry agent",
       "My Foundry agent is failing, help me diagnose the issue",
       "Check agent telemetry and traces for exceptions in Foundry",

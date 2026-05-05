@@ -51,7 +51,7 @@ Use your own Azure AI deployment. For local development use `DefaultAzureCredent
 | Endpoint type | `type` | `baseUrl` pattern |
 |---|---|---|
 | Azure OpenAI | `azure` | `https://<resource>.openai.azure.com` |
-| Azure AI Foundry | `openai` | `https://<resource>.services.ai.azure.com/api/projects/<project>/openai/v1/` |
+| Microsoft Foundry | `openai` | `https://<resource>.services.ai.azure.com/api/projects/<project>/openai/v1/` |
 
 ### Code Pattern
 

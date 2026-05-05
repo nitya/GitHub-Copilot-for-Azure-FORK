@@ -1,6 +1,6 @@
-# Azure AI Foundry
+# Microsoft Foundry
 
-Azure AI Foundry (formerly Azure OpenAI) for building AI-powered applications with models like GPT-4o, GPT-4, and embeddings.
+Microsoft Foundry (formerly Azure OpenAI) for building AI-powered applications with models like GPT-4o, GPT-4, and embeddings.
 
 > **💡 For detailed AI guidance**, invoke the **`microsoft-foundry`** skill. It provides model catalog access, RAG patterns, agent creation, and evaluation workflows.
 
@@ -26,7 +26,7 @@ services:
 
 | Resource | Purpose |
 |----------|---------|
-| Azure AI Foundry account | Model hosting |
+| Microsoft Foundry account | Model hosting |
 | Model deployment | Specific model (GPT-4o, GPT-4, etc.) |
 | Key Vault | Store API keys securely |
 | Application Insights | Monitor usage and costs |

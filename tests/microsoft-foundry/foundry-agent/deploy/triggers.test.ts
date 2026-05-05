@@ -21,7 +21,7 @@ describe("deploy - Trigger Tests", () => {
 
   describe("Should Trigger", () => {
     const shouldTriggerPrompts: string[] = [
-      "Deploy my agent to Azure AI Foundry",
+      "Deploy my agent to Microsoft Foundry",
       "Create a hosted agent in Foundry",
       "Start my agent container in Foundry",
       "Stop my hosted agent in Foundry",

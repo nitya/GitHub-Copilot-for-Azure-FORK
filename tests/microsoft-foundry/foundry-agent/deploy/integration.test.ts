@@ -28,7 +28,7 @@ describeIntegration(`${SKILL_NAME}_ - Integration Tests`, () => {
 
   test("invokes skill for relevant prompt", () => withTestResult(async () => {
     const agentMetadata = await agent.run({
-      prompt: "Deploy my agent to Azure AI Foundry",
+      prompt: "Deploy my agent to Microsoft Foundry",
       shouldEarlyTerminate: (metadata) =>
         isSkillInvoked(metadata, SKILL_NAME),
     });
@@ -38,7 +38,7 @@ describeIntegration(`${SKILL_NAME}_ - Integration Tests`, () => {
 
   test("response mentions agent concepts", () => withTestResult(async () => {
     const agentMetadata = await agent.run({
-      prompt: "Deploy my agent to Azure AI Foundry",
+      prompt: "Deploy my agent to Microsoft Foundry",
       shouldEarlyTerminate: (metadata) =>
         isSkillInvoked(metadata, SKILL_NAME) &&
         doesAssistantMessageIncludeKeyword(metadata, "agent"),

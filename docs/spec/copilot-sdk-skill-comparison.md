@@ -51,7 +51,7 @@
 | Auth priority chain (token → env → OAuth → gh) | ✅ Documented | ❌ Not explicit | **Gap** |
 | Programmatic token | ✅ `githubToken` in constructor | ✅ `GITHUB_TOKEN` env var | Parity (different angle) |
 | BYOK / BYOM config | ✅ `provider` config with `apiKey` | ✅ `provider` config with `bearerToken` + `DefaultAzureCredential` | This repo is Azure-specific and deeper |
-| Provider types table | ✅ OpenAI, Azure, Anthropic, Ollama | ✅ Azure OpenAI, Azure AI Foundry | microsoft/skills broader, this repo deeper on Azure |
+| Provider types table | ✅ OpenAI, Azure, Anthropic, Ollama | ✅ Azure OpenAI, Microsoft Foundry | microsoft/skills broader, this repo deeper on Azure |
 | Wire API (`responses` vs `completions`) | ✅ Documented | ❌ Not mentioned | **Gap** |
 | Token refresh in production | ❌ Not covered | ✅ Per-request `DefaultAzureCredential` refresh pattern | **This repo ahead** |
 | Key Vault secret flow | ❌ Not covered | ✅ Full flow: gh → azd hook → Bicep → KV → Container App | **This repo ahead** |
